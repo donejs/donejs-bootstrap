@@ -1,0 +1,17 @@
+<div class="container">
+
+  <div class="starter-template">
+    <h1>Get Help from Bitovi</h1>
+    <p class="lead">
+      Bitovi can help you build your app.
+      <ul class="list-unstyled">
+        <li>Design</li>
+        <li>Project Management</li>
+        <li>Web Applications</li>
+        <li>APIs & Security</li>
+      </ul>
+      <a href="https://www.bitovi.com/?referrer=donejs-bootstrap" class="btn btn-lg btn-primary">Contact Bitovi</a>
+    </p>
+  </div>
+
+</div>

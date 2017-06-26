@@ -1,0 +1,27 @@
+<can-import from="can-auth-component" />
+
+<auth-container>
+  <route-tabs {(active-tab)}="section" />
+
+  <div class="auth-branding">
+    logo
+  </div>
+
+  <div class="oauth-buttons">
+    <facebook-auth-button popup="true" />
+    <github-auth-button popup="true" />
+    <google-auth-button popup="true" />
+    <microsoft-auth-button popup="true" />
+    <twitter-auth-button popup="true" />
+  </div>
+
+  {{#switch section}}
+    {{#case 'signup'}}
+      <signup-form />
+    {{/case}}
+
+    {{#case 'login'}}
+      <login-form />
+    {{/case}}
+  {{/switch}}
+</auth-container>
